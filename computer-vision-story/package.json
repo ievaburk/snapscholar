@@ -1,0 +1,27 @@
+{
+  "name": "ampcrowd",
+  "version": "0.2.3",
+  "description": "A first Heroku-hosted AMP story prototype using Express 4",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Ieva Burk",
+  "license": "MIT"
+}
